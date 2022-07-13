@@ -1,0 +1,52 @@
+<AddKeyword>:
+    MDGridLayout:
+        cols: 1
+
+        BoxLayout:
+            orientation: 'vertical'
+            spacing: 100
+            size_hint: 1, None
+            height: "260dp"
+            MDToolbar:
+                title: 'Add Keyword'
+                left_action_items: [["home", lambda x: app.change_screen("button_window", 'right')]]
+                height: 45
+                elevation: 10
+            MDIconButton:
+                id: record_button
+                icon: "microphone"
+                user_font_size: "75sp"
+                pos_hint: {'center_x': .5}
+                on_press: root.animate(self)
+
+    GridLayout:
+        cols: 1
+        size_hint: 1, 1
+
+        MDLabel:
+            id: record_label
+            text: "Press Record"
+            halign: "center"
+
+    GridLayout:
+        cols: 1
+        size_hint: 1, .8
+
+        MDLabel:
+            id: keyword_label
+            text: ""
+            halign: "center"
+
+    MDIconButton:
+        icon: "restart"
+        md_bg_color: "#ff0000"
+        user_font_size: "25sp"
+        pos_hint: {"center_x": .5, "center_y": .3}
+        on_press: root.reset()
+
+
+    MDFillRoundFlatButton:
+        text: "Save"
+        font_size: "25sp"
+        pos_hint: {"center_x": .5, "center_y": .2}
+        on_press: root.save()

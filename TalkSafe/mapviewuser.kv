@@ -1,0 +1,20 @@
+#: import MapView kivy_garden.mapview.MapView
+#: import GpsBlinker gpsblinker.GpsBlinker
+#: include gpsblinker.kv
+
+<ViewUser@Screen>:
+    BoxLayout:
+        orientation: 'vertical'
+        MDToolbar:
+            title: 'GPS Tracker'
+            left_action_items: [["arrow-left", lambda x: app.change_screen("button_window", 'right') ]]
+            height: 45
+            elevation: 10
+        MapView:
+            lat: 12.88
+            lon: 121.77
+            zoom: 9
+            on_zoom:
+                self.zoom = 5 if self.zoom < 5 else self.zoom
+            GpsBlinker:
+                id: blinker

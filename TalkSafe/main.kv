@@ -1,0 +1,24 @@
+#:include loginscreen.kv
+#:include buttonwindow.kv
+#:include mapviewuser.kv
+#:include addcontact.kv
+#:include addkeyword.kv
+
+
+ScreenManager:
+    id: screen_manager
+    LoginScreen:
+        name: "login_screen"
+        id: login_screen
+    ButtonWindow:
+        name: "button_window"
+        id: button_window
+    AddKeyword:
+        name: "add_keyword"
+        id: add_keyword
+    AddContact:
+        name: "add_contact"
+        id: add_contact
+    ViewUser:
+        name: "map_view_user"
+        id: map_view_user

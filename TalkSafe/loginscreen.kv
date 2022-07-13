@@ -1,0 +1,16 @@
+<LoginScreen>
+    MDLabel:
+        text: 'Talk Safe'
+        color: '#f74c25'
+        font_style: 'H3'
+        valign: 'top'
+        halign: 'center'
+        pos_hint: {'center_x': 0.5, 'center_y': .7}
+    MDRoundFlatButton:
+        text: 'Guest'
+        pos_hint: {'center_x': 0.5, 'center_y': .5}
+        on_press: app.change_screen("button_window", 'left')
+    MDTextButton:
+        text: 'About'
+        color: '#03DAC5'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.3}
