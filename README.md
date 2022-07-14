@@ -25,7 +25,7 @@
 
         git clone https://github.com/fvea/malicious_url_classifier.git
     
-<h4>Step 2.</h4>Create a virtual environment. (Not necessary if you're using IDE that automatically create virtual environment, proceed to step 4.)
+<h4>Step 2.</h4>Create a virtual environment.
 
         python -m venv
     
