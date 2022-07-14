@@ -11,12 +11,13 @@
 
 <h2>Application Preview</h2>
         <h3>Main Window</h3>
-        <img src="C:\Users\User\PycharmProjects\TalkSafe\Main Window.PNG"> <h3>Add Keyword Window</h3>
-        <img src="C:\Users\User\PycharmProjects\TalkSafe\Add Window.PNG">
+        <img src="https://github.com/jamesdavidra/Talk-Safe-AndroidApp/blob/main/Main%20Window.PNG?raw=true"> 
+        <h3>Add Keyword Window</h3>
+        <img src="https://github.com/jamesdavidra/Talk-Safe-AndroidApp/blob/main/Add%20Window.PNG?raw=true">
         <h3>Add Contact Window</h3>
-        <img src="C:\Users\User\PycharmProjects\TalkSafe\Add Contact Window.PNG">
+        <img src="https://github.com/jamesdavidra/Talk-Safe-AndroidApp/blob/main/Add%20Contact%20Window.PNG?raw=true">
         <h3>Location Window</h3>
-        <img src="C:\Users\User\PycharmProjects\TalkSafe\Location Window.PNG">
+        <img src="https://github.com/jamesdavidra/Talk-Safe-AndroidApp/blob/main/Location%20Window.PNG?raw=true">
 
 <h2>Installation Steps</h2>
 
