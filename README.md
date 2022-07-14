@@ -23,7 +23,7 @@
 
 <h4>Step 1.</h4>Clone the repository.
 
-        git clone https://github.com/fvea/malicious_url_classifier.git
+        git clone https://github.com/jamesdavidra/Talk-Safe-MobileApp.git
     
 <h4>Step 2.</h4>Create a virtual environment.
 
