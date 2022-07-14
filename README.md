@@ -38,3 +38,9 @@
 
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
+<h3>Reminders</h3>
+    
+        Installing PyAudio will cause an error. It can be installed manually by downloading the Pyaudio(Download the prefer module with your python version.
+        Here: https://www.lfd.uci.edu/~gohlke/pythonlibs/) then use the pip install <pathfile(Path of the downloaded file)>
+        
