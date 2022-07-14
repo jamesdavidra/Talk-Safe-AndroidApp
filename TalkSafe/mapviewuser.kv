@@ -2,6 +2,7 @@
 #: import GpsBlinker gpsblinker.GpsBlinker
 #: include gpsblinker.kv
 
+
 <ViewUser@Screen>:
     BoxLayout:
         orientation: 'vertical'
@@ -11,6 +12,8 @@
             height: 45
             elevation: 10
         MapView:
+        ## Provide the lat and lon of your area/country/city
+        ## You can also change the zoom based on the size of the area/country/city
             lat: 12.88
             lon: 121.77
             zoom: 9
